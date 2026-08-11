@@ -308,3 +308,5 @@ Try these with `POST /predict` after starting the API:
 Educational starter project. Use public datasets and respect their licenses if you expand the training data.
 
 MIT License — free to use for learning and personal projects.
+
+See `requirements.txt` for third-party library licenses.
