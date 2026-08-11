@@ -172,6 +172,10 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 - Health check: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 - Interactive API docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
+### 4. Questions?
+
+Post in [Discussions → Q&A](https://github.com/swapnilswami332/spam-email-detector/discussions/categories/q-a). See [docs/discussions-guide.md](docs/discussions-guide.md) for sample questions and answers.
+
 ---
 
 ## Using the API
