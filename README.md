@@ -292,6 +292,17 @@ Empty or all-stopword input returns **ham** with a short message (safe default f
 
 ---
 
+## Sample inputs for testing
+
+Try these with `POST /predict` after starting the API:
+
+| Type | Example text |
+|------|----------------|
+| Ham | `Team meeting moved to Thursday at 3 PM. Agenda is in the shared doc.` |
+| Spam | `CONGRATULATIONS! You won $1,000,000. Click here to claim your prize now!!!` |
+
+---
+
 ## License and use
 
 Educational starter project. Use public datasets and respect their licenses if you expand the training data.
