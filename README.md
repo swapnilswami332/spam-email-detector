@@ -1,7 +1,7 @@
 # Spam Email Detector (Python + NLP)
 
 A **backend-only** project that classifies email text as **spam** or **ham** (not spam) using classic NLP and machine learning. There is no web UI—only a **FastAPI** service you call with HTTP (curl, Postman, or your own scripts).
-
+ 
 This README is written for **learning**: it explains *what* each piece does and *why* it is used at a beginner level.
 
 ---
