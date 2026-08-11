@@ -37,6 +37,16 @@ class PredictionResponse(BaseModel):
     message: str | None = None
 
 
+@app.get("/")
+def root():
+    return {
+        "service": "Spam Email Detector",
+        "docs": "/docs",
+        "health": "/health",
+        "predict": "POST /predict",
+    }
+
+
 @app.get("/health")
 def health():
     ready = False
